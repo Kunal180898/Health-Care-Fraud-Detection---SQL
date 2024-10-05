@@ -1,5 +1,6 @@
 # Health-Care-Fraud-Detection---SQL
 This is SQL Based Project 
+Dataset link:- https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis
 
 Overview
 This project focuses on analyzing healthcare claims data to detect potential fraud and gather insights into provider and beneficiary patterns. The dataset includes information from outpatient, inpatient, and beneficiary tables, and SQL queries are used for data analysis, fraud detection, and generating key insights. The analysis helps identify outliers in claim amounts, trends over time, provider behavior, and patterns in chronic conditions.
