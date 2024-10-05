@@ -1,0 +1,44 @@
+Beginner Level
+Count of Claims: What is the total number of claims recorded in the Train_Outpatient table?
+
+Unique Providers: How many unique providers are there in the Train table?
+
+Claims in a Specific Date Range: How many claims were made between 2020-01-01 and 2020-12-31 in the Train_Inpatient table?
+
+Average Claim Amount: What is the average claim amount reimbursed in the Train_Outpatient table?
+
+Count of Beneficiaries by Gender: How many beneficiaries are there in the Train_Beneficiary table by gender?
+
+Claims Without a Diagnosis Code: How many claims in the Train_Outpatient table do not have a diagnosis code?
+
+Claims by Providers with More Than 5 Claims: Find the names of providers who have submitted more than 5 claims in the Train_Outpatient table using a subquery.
+
+Intermediate Level
+
+Claims Count by Provider: What is the count of claims for each provider in the Train table?
+
+Average Reimbursement Amount by Provider: Calculate the average reimbursement amount for each provider in the Train_Outpatient table.
+
+Top Providers by Claims: Which providers have the highest number of claims in the Train_Outpatient table? Use a subquery to filter out providers with fewer than 10 claims.
+
+Total Claims Per State: What is the total number of claims from each state in the Train_Beneficiary table?
+
+Top 5 Chronic Conditions: Which chronic conditions are the most common among beneficiaries in the Train_Beneficiary table?
+
+Provider Claim Statistics: For each provider, retrieve the total claim amount and the number of claims in the Train_Inpatient table using a subquery.
+
+Join with Subquery for Potential Fraud: List all claims in the Train_Outpatient table where the reimbursement amount exceeds the average reimbursement amount across all claims.
+
+Advanced Level
+
+Fraud Detection Analysis: Identify the top 10 providers with the highest claim amounts in the Train_Inpatient table, along with their average reimbursement amount.
+
+Claims Analysis Over Time: Analyze the trend of claims submitted over the years by grouping them by year in the Train_Inpatient table.
+
+Join for Chronic Condition Analysis: Join Train_Beneficiary and Train_Outpatient tables to find beneficiaries with specific chronic conditions (e.g., "ChronicCond_Heartfailure") and the number of claims associated with them.
+
+Claim Rejection Rates: Calculate the percentage of claims that were denied or resulted in no reimbursement in the Train_Outpatient table.
+
+Join for Multiple Conditions: List beneficiaries with multiple chronic conditions and the number of claims they have submitted, using joins between Train_Beneficiary and Train_Outpatient.
+
+Provider Analysis for Fraudulent Claims: Identify providers with a disproportionately high number of claims flagged as potential fraud in the Train table using a subquery.
